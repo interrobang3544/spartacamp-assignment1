@@ -1,7 +1,8 @@
 # spartacamp-week1-assignment
 
 1. 수정, 삭제 API에서 Resource를 구분하기 위해서 Request를 어떤 방식으로 사용하셨나요? (`param`, `query`, `body`)
-const { _postId } = req.params;와 같이 url의 parameter에서 _postId를 받아왔습니다. 
+const { _postId } = req.params;와 같이 url의 parameter에서 _postId를 받아왔습니다.  
+
 const { user, password, title, content } = req.body;와 같이 body에서 내용을 받아왔습니다.
 
 2. HTTP Method의 대표적인 4가지는 `GET`, `POST`, `PUT`, `DELETE` 가있는데 각각 어떤 상황에서 사용하셨나요?
